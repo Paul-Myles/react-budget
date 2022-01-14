@@ -1,0 +1,69 @@
+$dark-but-not-black: #2c2f33;
+$not-quite-black: #23272a;
+$blurple:	#7289DA;
+$full-white: #ffffff;
+$half-white: #99aab5;
+$red: #ed4245;
+
+body {
+  background: $not-quite-black;
+  color: $full-white;
+}
+
+.card {
+  background: $dark-but-not-black;
+  color: $half-white;
+  border: none;
+  box-shadow: 3px 3px rgb(44, 47, 51, 50%);
+}
+
+.btn-primary {
+  color: $full-white;
+  background-color: $blurple!important;
+  border-color: $blurple;
+}
+
+.btn-outline-primary {
+  color: $blurple;
+  border-color: $blurple;
+  &:hover {
+    color: $full-white;
+    background-color: $blurple;
+    border-color: $blurple;
+  }
+}
+
+.logo {
+  #G {
+    fill: $blurple;
+  }
+}
+
+.progress-bar {
+  background: $blurple!important;
+}
+
+.modal-content {
+  background: $dark-but-not-black;
+}
+
+.btn-outline-danger {
+  color: $red;
+  border-color: $red;
+}
+
+.modal-header {
+  border-bottom: 4px solid $not-quite-black;
+}
+
+.modal-body {
+  color: $half-white;
+}
+
+.btn-close {
+  color: $full-white;
+}
+
+.btn-close {
+  background-color: $half-white;
+}
